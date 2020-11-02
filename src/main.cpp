@@ -44,6 +44,7 @@ void select_display(int d) {
 void draw_noise( int d ) {
   select_display(d);
   delay(50);
+  bool junk;
 
   if ( random(0,100) > 80 ) {
     display[d].clearDisplay();
@@ -52,12 +53,15 @@ void draw_noise( int d ) {
       display[d].drawPixel(random(0,127), random(0,64), WHITE);
     };
     display[d].display();
-    delay(50);
+    junk=display[d].getPixel(1,1);
   };
+
+  if ( junk ) { junk = true; } else { junk = false; };
 };
 
 
 void setup() {
+  bool junk;
   Wire.begin();
   Serial.begin(115200);
   Serial.println("System started up.");
@@ -78,18 +82,17 @@ void setup() {
     display[ad] = Adafruit_SSD1306(128, 64, &Wire);
     display[ad].begin(SSD1306_SWITCHCAPVCC, 0x3C); // Address 0x3C for 128x32
     display[ad].display();
-    delay(50);
+    junk=display[ad].getPixel(1,1);
     display[ad].clearDisplay();
     display[ad].display();
-    delay(50);
+    junk=display[ad].getPixel(1,1);
   };
+  if ( junk ) { junk = true; } else { junk = false; };
 
 }
 
 void loop() {
-  int nDevices=0;
-  int address=0;
-  int error=0;
+  bool junk;
   Serial.println("> Doing displays");
   for(int ad=0; ad <=3; ad++) {
     select_display(ad);
@@ -98,6 +101,7 @@ void loop() {
 
     draw_noise(ad);
 
-    delay(50);
+    junk=display[ad].getPixel(1,1);
   };
+  if ( junk ) { junk = true; } else { junk = false; };
 }
