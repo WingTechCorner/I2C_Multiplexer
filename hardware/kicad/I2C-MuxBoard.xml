@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/wingtangwong/Documents/KICAD/I2C-MuxBoard/I2C-MuxBoard.sch</source>
+    <date>Sunday, November 01, 2020 at 04:17:41 PM</date>
+    <tool>Eeschema (5.1.7-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Wing's I2C Mutiplexing Board</title>
+        <company>Wing Tech Corner</company>
+        <rev>1</rev>
+        <date>2020-10-31</date>
+        <source>I2C-MuxBoard.sch</source>
+        <comment number="1" value="* Parts have LSCS/JLCPCB parts numbers included"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="(C)WingTangwong.com 2020"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>CD4052B</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</datasheet>
+      <fields>
+        <field name="JLCPCBPART">C6521</field>
+        <field name="LSCSPART">C6521</field>
+      </fields>
+      <libsource lib="Analog_Switch" part="CD4052B" description="CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D3472</tstamp>
+    </comp>
+    <comp ref="J0">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D74D3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9DCA18</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9DD1BD</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9DDD93</tstamp>
+    </comp>
+    <comp ref="I2C1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E43B2</tstamp>
+    </comp>
+    <comp ref="CTRL1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E4BF4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7nF-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B472K500NT_C53987.pdf</datasheet>
+      <fields>
+        <field name="Description">C53987 0603B472K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7nF 50V 0603 RoHS</field>
+        <field name="JLCPCB">C53987</field>
+        <field name="LCSC">C53987</field>
+      </fields>
+      <libsource lib="jlcpcb-C" part="4.7nF-50V-0603" description="C53987 0603B472K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7nF 50V 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E8C70</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nF-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf</datasheet>
+      <fields>
+        <field name="Description">C57112 0603B103K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 10nF 50V 0603 RoHS</field>
+        <field name="JLCPCB">C57112</field>
+        <field name="LCSC">C57112</field>
+      </fields>
+      <libsource lib="jlcpcb-C" part="10nF-50V-0603" description="C57112 0603B103K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 10nF 50V 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E9D5F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7nF-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B472K500NT_C53987.pdf</datasheet>
+      <fields>
+        <field name="Description">C53987 0603B472K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7nF 50V 0603 RoHS</field>
+        <field name="JLCPCB">C53987</field>
+        <field name="LCSC">C53987</field>
+      </fields>
+      <libsource lib="jlcpcb-C" part="4.7nF-50V-0603" description="C53987 0603B472K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7nF 50V 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EAE9C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10nF-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf</datasheet>
+      <fields>
+        <field name="Description">C57112 0603B103K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 10nF 50V 0603 RoHS</field>
+        <field name="JLCPCB">C57112</field>
+        <field name="LCSC">C57112</field>
+      </fields>
+      <libsource lib="jlcpcb-C" part="10nF-50V-0603" description="C57112 0603B103K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 10nF 50V 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EAEA5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EF7AB</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F1731</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F1C1B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F1E05</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F234F</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F4816</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F481F</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F4828</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F4831</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F483A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F5CE8</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA0E72A</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA0F3C1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA2932D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10KOhms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603" description="C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA29336</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9FB21A</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9FB220</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BLUE_LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf</datasheet>
+      <fields>
+        <field name="Description">LIGHT EMITTING DIODES (LED) BLUE 465~475NM 11.5~28.5MCD@5MA TOP VIEW 0603 ROHS</field>
+        <field name="JLCPCB">C72041</field>
+        <field name="PACKAGE">LED_0603</field>
+      </fields>
+      <libsource lib="JLCPCB-KiCad" part="BLUE_LED" description="Light emitting diode(blue)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA340BA</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BLUE_LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf</datasheet>
+      <fields>
+        <field name="Description">LIGHT EMITTING DIODES (LED) BLUE 465~475NM 11.5~28.5MCD@5MA TOP VIEW 0603 ROHS</field>
+        <field name="JLCPCB">C72041</field>
+        <field name="PACKAGE">LED_0603</field>
+      </fields>
+      <libsource lib="JLCPCB-KiCad" part="BLUE_LED" description="Light emitting diode(blue)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA353F7</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BLUE_LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf</datasheet>
+      <fields>
+        <field name="Description">LIGHT EMITTING DIODES (LED) BLUE 465~475NM 11.5~28.5MCD@5MA TOP VIEW 0603 ROHS</field>
+        <field name="JLCPCB">C72041</field>
+        <field name="PACKAGE">LED_0603</field>
+      </fields>
+      <libsource lib="JLCPCB-KiCad" part="BLUE_LED" description="Light emitting diode(blue)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA35B76</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>BLUE_LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf</datasheet>
+      <fields>
+        <field name="Description">LIGHT EMITTING DIODES (LED) BLUE 465~475NM 11.5~28.5MCD@5MA TOP VIEW 0603 ROHS</field>
+        <field name="JLCPCB">C72041</field>
+        <field name="PACKAGE">LED_0603</field>
+      </fields>
+      <libsource lib="JLCPCB-KiCad" part="BLUE_LED" description="Light emitting diode(blue)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA36155</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="JLCPCBPART">C20917</field>
+        <field name="LSCSPART">C20917</field>
+      </fields>
+      <libsource lib="JLCPCB-KiCad" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA50469</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="JLCPCBPART">C20917</field>
+        <field name="LSCSPART">C20917</field>
+      </fields>
+      <libsource lib="JLCPCB-KiCad" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA588BC</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>470Ohms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF4700T5E_C23179.pdf</datasheet>
+      <fields>
+        <field name="Description">C23179 0603WAF4700T5E Uniroyal Elec Chip Resistor - Surface Mount 470Ohms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C23179</field>
+        <field name="LCSC">C23179</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="470Ohms-±1%-1_10W-0603" description="C23179 0603WAF4700T5E Uniroyal Elec Chip Resistor - Surface Mount 470Ohms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAE8094</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>470Ohms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF4700T5E_C23179.pdf</datasheet>
+      <fields>
+        <field name="Description">C23179 0603WAF4700T5E Uniroyal Elec Chip Resistor - Surface Mount 470Ohms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C23179</field>
+        <field name="LCSC">C23179</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="470Ohms-±1%-1_10W-0603" description="C23179 0603WAF4700T5E Uniroyal Elec Chip Resistor - Surface Mount 470Ohms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAEA283</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>470Ohms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF4700T5E_C23179.pdf</datasheet>
+      <fields>
+        <field name="Description">C23179 0603WAF4700T5E Uniroyal Elec Chip Resistor - Surface Mount 470Ohms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C23179</field>
+        <field name="LCSC">C23179</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="470Ohms-±1%-1_10W-0603" description="C23179 0603WAF4700T5E Uniroyal Elec Chip Resistor - Surface Mount 470Ohms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAEAD6A</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>470Ohms-±1%-1_10W-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF4700T5E_C23179.pdf</datasheet>
+      <fields>
+        <field name="Description">C23179 0603WAF4700T5E Uniroyal Elec Chip Resistor - Surface Mount 470Ohms ±1% 1/10W 0603 RoHS</field>
+        <field name="JLCPCB">C23179</field>
+        <field name="LCSC">C23179</field>
+      </fields>
+      <libsource lib="jlcpcb-R" part="470Ohms-±1%-1_10W-0603" description="C23179 0603WAF4700T5E Uniroyal Elec Chip Resistor - Surface Mount 470Ohms ±1% 1/10W 0603 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAEB6E9</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="JLCPCBPART">C20917</field>
+        <field name="LSCSPART">C20917</field>
+      </fields>
+      <libsource lib="JLCPCB-KiCad" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA57AC6</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="JLCPCBPART">C20917</field>
+        <field name="LSCSPART">C20917</field>
+      </fields>
+      <libsource lib="JLCPCB-KiCad" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA5996E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_Switch" part="CD4052B">
+      <description>CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>DIP*W7.62*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>SO*5.3x10.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD4052B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Y0" type="BiDi"/>
+        <pin num="2" name="Y2" type="BiDi"/>
+        <pin num="3" name="Y" type="BiDi"/>
+        <pin num="4" name="Y3" type="BiDi"/>
+        <pin num="5" name="Y1" type="BiDi"/>
+        <pin num="6" name="INH" type="input"/>
+        <pin num="7" name="VEE" type="power_in"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="B" type="input"/>
+        <pin num="10" name="A" type="input"/>
+        <pin num="11" name="X3" type="BiDi"/>
+        <pin num="12" name="X0" type="BiDi"/>
+        <pin num="13" name="X" type="BiDi"/>
+        <pin num="14" name="X1" type="BiDi"/>
+        <pin num="15" name="X2" type="BiDi"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB-KiCad" part="BLUE_LED">
+      <description>Light emitting diode(blue)</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BLUE_LED</field>
+        <field name="Footprint">Diode_SMD:D_0603_1608Metric</field>
+        <field name="JLCPCB">C72041</field>
+        <field name="PACKAGE">LED_0603</field>
+        <field name="Description">LIGHT EMITTING DIODES (LED) BLUE 465~475NM 11.5~28.5MCD@5MA TOP VIEW 0603 ROHS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB-KiCad" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="LSCSPART">C20917</field>
+        <field name="JLCPCBPART">C20917</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="jlcpcb-C" part="10nF-50V-0603">
+      <description>C57112 0603B103K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 10nF 50V 0603 RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10nF-50V-0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="JLCPCB">C57112</field>
+        <field name="Description">C57112 0603B103K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 10nF 50V 0603 RoHS</field>
+        <field name="LCSC">C57112</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jlcpcb-C" part="4.7nF-50V-0603">
+      <description>C53987 0603B472K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7nF 50V 0603 RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B472K500NT_C53987.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7nF-50V-0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="JLCPCB">C53987</field>
+        <field name="Description">C53987 0603B472K500NT Guangdong Fenghua Advanced Tech Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7nF 50V 0603 RoHS</field>
+        <field name="LCSC">C53987</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jlcpcb-R" part="10KOhms-±1%-1_10W-0603">
+      <description>C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10KOhms-±1%-1_10W-0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="JLCPCB">C25804</field>
+        <field name="Description">C25804 0603WAF1002T5E Uniroyal Elec Chip Resistor - Surface Mount 10KOhms ±1% 1/10W 0603 RoHS</field>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jlcpcb-R" part="470Ohms-±1%-1_10W-0603">
+      <description>C23179 0603WAF4700T5E Uniroyal Elec Chip Resistor - Surface Mount 470Ohms ±1% 1/10W 0603 RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF4700T5E_C23179.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">470Ohms-±1%-1_10W-0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="JLCPCB">C23179</field>
+        <field name="Description">C23179 0603WAF4700T5E Uniroyal Elec Chip Resistor - Surface Mount 470Ohms ±1% 1/10W 0603 RoHS</field>
+        <field name="LCSC">C23179</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_Switch">
+      <uri>/Library/Application Support/kicad/library/Analog_Switch.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="JLCPCB-KiCad">
+      <uri>/Users/wingtangwong/Documents/JLCPCB/KICAD/JLCPCB-KiCad.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="jlcpcb-C">
+      <uri>/Users/wingtangwong/Documents/JLCPCB/KICAD/jlcpcb-C.lib</uri>
+    </library>
+    <library logical="jlcpcb-R">
+      <uri>/Users/wingtangwong/Documents/JLCPCB/KICAD/jlcpcb-R.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="ADDR-A">
+      <node ref="IC1" pin="10"/>
+      <node ref="CTRL1" pin="3"/>
+      <node ref="R12" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="2" name="SDA">
+      <node ref="IC1" pin="13"/>
+      <node ref="I2C1" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="3" name="P1-SDA">
+      <node ref="IC1" pin="14"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="4" name="P2-SDA">
+      <node ref="IC1" pin="15"/>
+      <node ref="J2" pin="4"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="5" name="P2-SCL">
+      <node ref="IC1" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="6" name="SCL">
+      <node ref="R2" pin="1"/>
+      <node ref="I2C1" pin="3"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="7" name="P1-SCL">
+      <node ref="IC1" pin="5"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="8" name="INH">
+      <node ref="Q3" pin="1"/>
+      <node ref="CTRL1" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="9" name="ADDR-B">
+      <node ref="CTRL1" pin="4"/>
+      <node ref="R11" pin="1"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="I2C1" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="CTRL1" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="H4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="H3" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="J0" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="11" name="3V3">
+      <node ref="R10" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J0" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="IC1" pin="16"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="I2C1" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="12" name="P0-SCL">
+      <node ref="IC1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J0" pin="3"/>
+    </net>
+    <net code="13" name="P0-SDA">
+      <node ref="IC1" pin="12"/>
+      <node ref="J0" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="14" name="P3-SCL">
+      <node ref="R10" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="15" name="P3-SDA">
+      <node ref="IC1" pin="11"/>
+      <node ref="R9" pin="1"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="16" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(D3-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="21" name="Net-(D2-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="22" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="23" name="Net-(D4-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+  </nets>
+</export>
